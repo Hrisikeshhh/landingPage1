@@ -1,0 +1,160 @@
+@import url('https//fonts.googleapis.com/css2?family=cause:Wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    color: rgb(237, 221, 203);
+    font-family: "cause", cursive;
+    display: flex;
+    background-color:rgb(124 108 90);
+}
+
+.leftNav{
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightNav{
+     width: 60vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    list-style: none;
+
+}
+
+.navItems a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+form{
+    background-color: #eae2d1;
+    width: 45%;
+    margin: auto;
+    height: 70%;
+    border-radius: 19px;
+    font-family: "cause", cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+form input{
+    padding: 1%;
+    border-radius: 14px;
+}
+
+form textarea{
+    padding: 2%;
+    border-radius: 14px;
+}
+
+.lebel1{
+   margin-top: 8%;
+   margin-left: 5%;
+}
+
+.lebel2{
+    margin-left: 3%;
+}
+
+#submitBtn{
+    width: 24%;
+    margin-left: 7%;
+    background-color:rgb(171 143 113);
+    color: #eae2d1;
+    padding: 1%;
+    cursor: pointer;
+    font-size: 116%;
+    border-radius: 12px;
+    border: none;
+}
+
+#submitBtn:hover{
+    background-color:rgb(145, 119, 92);
+    color: #eae2d1;
+
+}
+
+footer{
+    color: rgb(171 143 113);
+    background-color: white;
+    font-size: 111%;
+    font-family: "cause", cursive;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width:800px)
+{
+  .body {
+    height: 87%;
+}
+
+form {
+    width: 89%;
+    height: 61%;
+    border-radius: 19px;
+    font-family: "cause", cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+form input {
+    padding: 2%;
+    border-radius: 14px;
+    width: 64%;
+}
+
+footer {
+    color: rgb(171 143 113);
+    font-size: 111%;
+    background-color: white ;
+    font-family: "cause", cursive;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+}
+
+@media (min-width:800px) and (max-width:1024px)
+{
+    form{
+    width: 78%;
+}
+
+}

@@ -1,0 +1,819 @@
+@import url('https//fonts.googleapis.com/css2?family=cause:Wght@100..900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.overline{
+    text-decoration: 3px solid rgb(15, 225, 29) line-through;
+}
+
+.underline{
+    text-decoration: 3px solid rgb(15, 225, 29) underline;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    color: rgb(237, 221, 203);
+    font-family: "cause", cursive;
+    display: flex;
+    background-color:rgb(124 108 90);
+    align-items: center;
+}
+
+.leftNav{
+    width: 35vw;
+    display: flex;
+    font-size: 111%;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightNav{
+     width: 60vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    list-style: none;
+
+}
+
+.navItems a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.section1{
+    width: 100%;
+    height: 90vh;
+    background-image: url(imgs/hero.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flow-root;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.Hero{
+    width: 70vw;
+    color: rgb(253 243 233);;
+    height: 59vh;
+    margin: auto;
+    margin-top: 8%;
+    display: flex;
+    background-image: url(imgs/button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.COA{
+    font-family: "cause", cursive;
+    height: 13%;
+    font-size: 208%;
+}
+
+.call-Out-headline{
+   width: 40%;
+   font-family: "cause", cursive;
+   font-size: 102%;
+}
+
+.hero-promise{
+    font-family: "cause", cursive;
+    margin-top: 6%;
+}
+
+.Hero-button{
+    width: 25%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12%;
+    background-color: #c4c2b6;
+    cursor: pointer;
+  color: rgb(136, 127, 117);
+    border: transparent;
+    margin: 2% 17%;
+    background-image: url(imgs/button.png);
+    background-position: center;
+    background-size: cover;
+    font-size: 102%;
+}
+
+.Hero-button:active{
+    width: 25%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12%;
+    background-color: #9a9991;
+    cursor: pointer;
+    color: rgb(136, 127, 117);
+    border: transparent;
+    margin: 2% 17%;
+    background-image: url(imgs/button.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.section2{
+    height: 100vh;
+    width: 100%;
+    background-color: #eae2d1;
+    display: flow-root;
+}
+
+.Intrique{
+    border: 1px solid;
+    height: 65%;
+    margin: auto;
+    color: rgb(171 143 113);
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 10%;
+    width: 75%;
+    font-family: "cause", cursive;
+}
+
+.Intrique-headline{
+    margin-top: 4%;
+}
+
+.belief-Break{
+    font-size: 143%;
+    margin-top: 6%;
+}
+
+.Intrique-solution{
+   font-size: 110%;
+   width: 77%;
+   margin: 4% 11%;
+}
+
+.section3{
+    height: 100vh;
+    width: 100%;
+    background-color: #eae2d1;
+    display: flow-root; 
+}
+
+.beliefShifting{
+    border: 1px solid;
+    height: 65%;
+    margin: auto;
+    color: rgb(171 143 113);
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 10%;
+    width: 75%;
+    font-family: "cause", cursive;
+}
+
+.belief-headline{
+    margin-top: 4%;
+}
+
+.belief-shift{
+   font-size: 110%;
+   width: 77%;
+   margin: 4% 11%;
+}
+
+.belief-solution{
+    width: 83%;
+    margin: 0% 8%;
+}
+
+.section4{
+    height: 100vh;
+    width: 100%;
+    background-color: #eae2d1;
+    display: flow-root;
+}
+
+.hidden-value{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    margin-top: 3%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 18%);
+    grid-auto-rows: 84%;
+    grid-gap: 20px;
+}
+
+.valueDiv{
+    border-radius: 15px;
+    box-shadow: 3px 15px 35px rgb(171 143 113) ;
+    cursor: pointer;
+    
+}
+
+#valueDiv1{
+    background-image: linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.4)), url(valueStackimg/pic1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#valueDiv2{
+    background-image: linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.4)), url(valueStackimg/pic2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#valueDiv3{
+    background-image: linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.4)), url(valueStackimg/pic3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#valueDiv4{
+    background-image: linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.4)), url(valueStackimg/pic4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#valueDiv5{
+    background-image: linear-gradient(rgba(0,0,0,1.0), rgba(0,0,0,0.4)), url(valueStackimg/pic5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.valueDiv:hover{
+     transform: translateY(20px);
+     transition: 0.2s ease;
+}
+
+#hidden-valueH4{
+    font-family: "cause", cursive;
+    text-align: center;
+    color: rgb(171 143 113);
+    margin-top: 4%;
+}
+
+.insideValue{
+    text-align: center;
+    color: rgb(171 143 113);
+    font-family: "cause", cursive;
+    width: 90%;
+    margin: auto;
+}
+
+.insideValueP{
+    margin-top: 5%;
+}
+
+.Value-Stack{
+    height: 44%;
+    font-family: "cause", cursive;
+    color: rgb(171 143 113);
+    overflow-x: hidden;
+}
+
+.Value-StackH1{
+    text-align: center;
+}
+
+.Value-StackParas{
+    margin: auto;
+    width: 90%;
+    height: 77%;
+    margin-top: 1%;
+}
+
+.section5{
+    height: 150vh;
+    width: 100%;
+    background-color: #eae2d1;
+    font-family: "cause", cursive;
+    color: rgb(171 143 113);
+    display: flow-root;
+}
+
+.testimonialsHeadline{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.testimonial-outerBox{
+    margin: auto;
+    margin-top: 3%;
+    width: 90%;
+    height: 80%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-auto-rows: 48%;
+    grid-gap: 25px;
+}
+
+.testimonials-box{
+    border-radius: 15px;
+    box-shadow: 3px 15px 35px rgb(171 143 113) ;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pic{
+    width: 60%;
+    height: 33%;
+    border-radius: 14px;
+
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+}
+
+.msg{
+    width: 80%;
+    margin-top: 4%;
+    height: 50%;
+    margin-left: 13%;
+    background-color: white;
+    border-radius: 14px;
+    font-family: "cause", cursive;
+}
+
+.msg h1{
+    text-align: center;
+    font-size: 100%;
+    margin-top: 4%;
+    text-decoration: underline;
+}
+
+.msg p{
+    font-size: 80%;
+    width: 80%;
+    margin: 5% 10% ;
+}
+
+.testimonials-box:hover{
+   transform: translateY(10px);
+   transition: 0.3s ease;
+}
+
+.section6{
+    height: 100vh;
+    width: 100%;
+    background-color: #eae2d1;
+    display: flow-root;
+}
+
+.scroll-Bar{
+    overflow: hidden;
+    width: 100%;
+    background: #f7f7f7;
+    padding: 12px 0;
+    margin-top: 3%;
+}
+
+.scroll-track{
+    display:flex;
+    gap:3rem;
+    white-space: nowrap;
+    font-family: "cause",cursive;
+}
+
+.scroll-track span{
+   font-size: 0.95rem;
+   color:#555;
+}
+
+.videos{
+    height: 75%;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    grid-auto-rows: 40%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.video{
+     border-radius: 15px;
+    box-shadow: 3px 15px 35px rgb(171 143 113) ;
+    cursor: pointer;
+}
+
+.video:hover{
+   transform: translateY(10px);
+   transition: 0.3s ease;
+}
+
+.video iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.section7{
+    height: 100vh;
+    width: 100%;
+    background-color: #eae2d1;
+    font-family: "cause", cursive;
+    color: rgb(171 143 113);
+    display: flow-root;
+}
+
+.CTA{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.CTA p{
+    margin-top: 2%;
+}
+
+.CTA-button{
+    padding: 0.8%;
+    border-radius: 11px;
+    font-size: 144%;
+    border: none;
+    margin: 4% 13%;
+    color: #eae2d1;
+    background-color:rgb(171 143 113);
+    cursor: pointer;
+}
+
+.CTA-button:hover{
+    background-color:rgb(134, 106, 76);
+    transition: 0.2s ease;
+}
+
+footer{
+    
+    color: rgb(171 143 113);
+    background-color: #eae2d1;
+    font-size: 111%;
+    font-family: "cause", cursive;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu{
+    display: none;
+}
+
+#close{
+    display: none;
+}
+
+@media (max-width:800px)
+{
+    #menu{
+    display: inline-block;
+    font-size: 231%;
+    margin-right: 2%;
+    }
+
+    #close{
+    display: inline-block;
+    font-size: 231%;
+    margin-left: 75%;
+    }
+    
+
+    .navItems{
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        right: 100%;
+        text-align: center;
+        border-radius: 14px;
+        height: 50vh;
+        background-color: rgb(179 138 94);
+    }
+
+    .COA{
+        font-size: 131%;
+        margin-top: 35%;
+    }
+
+    .call-Out-headline {
+    width: 40%;
+    font-size: 75%;
+   }
+
+   .hero-promise {
+    font-size: 80%;
+}
+
+  .Hero-button {
+    width: 50%;
+    margin: 10% 17%;
+}
+
+   .Hero-button:active {
+    width: 50%;
+    margin: 10% 17%;
+}
+
+.section2 {
+    height: 50vh;
+}
+
+.Intrique-headline {
+	    margin-top: 4%;	   
+        font-size: 57%;
+        width: 86%;
+	    margin-left: 6%;
+}
+
+.belief-Break {
+    font-size: 88%;
+    margin-top: 6%;
+}
+
+.Intrique-solution {
+     font-size: 80%;
+    width: 77%;
+    margin: 4% 11%;
+}
+
+.belief-headline {
+    margin-top: 4%;
+    font-size: 54%;
+    width: 80%;
+    margin-left: 9%;
+}
+
+
+
+.section3 {
+        height: 72vh;
+ }
+
+ .beliefShifting {
+     border: 1px solid;
+    height: 89%;
+    margin: auto;
+    color: rgb(171 143 113);
+   border-radius: 16px;
+   text-align: center;
+  margin-top: 10%;
+  width: 75%;
+   font-family: "cause", cursive;
+}
+
+.belief-Break {
+       font-size: 77%;
+        margin-top: 6%;
+    }
+
+.belief-shift {
+    font-size: 110%;
+width: 77%;
+    margin: 4% 11%;
+}
+
+.belief-solution {
+    width: 83%;
+    margin: 0% 8%;
+}
+
+.hidden-value {
+    width: 90%;
+    height: 71%;
+    margin: auto;
+    margin-top: 18%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 73%);
+    grid-auto-rows: 18%;
+    grid-gap: 20px;
+}
+
+.section4 {
+    height: 261vh;
+    width: 100%;
+    background-color: #eae2d1;
+    display: flow-root;
+}
+
+.Value-Stack {
+    height: 29%;
+    font-family: "cause", cursive;
+    color: rgb(171 143 113);
+    overflow-x: hidden;
+}
+
+.valueDiv:hover {
+   transform: translatey(0);
+}
+
+.valueDiv:active {
+   transform: translatey(0);
+}
+
+.Value-StackH1 {
+    font-size: 130%;
+    width: 80%;
+    margin-left: 8%;
+}
+
+.Value-StackParas {
+    width: 85%;
+    margin-top: 5%;
+}
+
+
+.section5 {
+    height: 190vh;
+    width: 100%;
+}
+
+
+.testimonial-outerBox {
+    margin-top: 3%;
+    width: 90%;
+    height: 68%;
+    grid-template-columns: repeat(2, 45%);
+    grid-auto-rows: 33%;
+    grid-gap: 15px;
+}
+
+.msg h1 {
+    font-size: 80%;
+    margin-top: 4%;
+}
+
+.msg p {
+    font-size: 70%;
+    width: 80%;
+    margin: 5% 10%;
+}
+
+.section6 {
+    height: 221vh;
+    width: 100%;
+    background-color: #eae2d1;
+    display: flow-root;
+}
+
+.scroll-Bar {
+    overflow: hidden;
+    width: 100%;
+    background: #f7f7f7;
+    padding: 12px 0;
+    margin-top: 19%;
+}
+
+.videos {
+    height: 75%;
+    width: 90%;
+    margin-top: 5%;
+    grid-template-columns: repeat(1, 90%);
+    grid-auto-rows: 13%;
+    gap: 30px;
+}
+
+.CTA {
+    margin: auto;
+    margin-top: 28%;
+}
+
+footer {
+    font-size: 111%;
+}
+
+}
+
+@media (min-width:800px) and (max-width:1024px)
+{
+   .Hero {
+    margin-top: 25%;
+}
+
+  .COA {
+    font-size: 226%;
+}
+
+.call-Out-headline {
+    width: 54%;
+    font-size: 113%;
+    margin-top: 3%;
+}
+
+.Hero-button {
+    width: 32%;
+    height: 12%;
+    margin: 5% 17%;
+    font-size: 125%;
+}
+
+.Intrique-headline {
+    margin-top: 23%;
+    width: 80%;
+    margin-left: 9%;
+}
+
+.belief-Break {
+    font-size: 170%;
+    margin: 10% 1%;
+}
+
+.leftNav {
+    width: 35vw;
+    font-size: 145%;
+}
+
+.Intrique-solution {
+    font-size: 129%;
+    width: 77%;
+    margin: 4% 11%;
+}
+
+.belief-headline {
+    margin-top: 12%;
+}
+
+.section4 {
+    height: 149vh;
+
+}
+
+.hidden-value {
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    margin-top: 3%;
+    grid-template-columns: repeat(2, 44%);
+    grid-auto-rows: 31%;
+}
+
+.Value-Stack {
+    height: 24%;
+    margin-top: 5%;
+}
+
+.Value-StackH1 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.Value-StackParas {
+    margin: auto;
+    width: 85%;
+    font-size: 121%;
+    height: 77%;
+    margin-top: 2%;
+}
+
+.testimonial-outerBox {
+    margin-top: 3%;
+    width: 90%;
+    height: 80%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 31%);
+    grid-auto-rows: 35%;
+}
+
+.videos{
+height:75%;
+width:90%;
+margin:auto;
+margin-top:5%;
+display:grid;
+grid-template-columns:repeat(2,48%);
+grid-auto-rows:25%;
+justify-content:center;
+gap:30px;
+}
+
+.CTA {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    font-size: 120%;
+    margin-top: 21%;
+}
+}
