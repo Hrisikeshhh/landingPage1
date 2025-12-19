@@ -558,9 +558,9 @@ footer{
 }
 
 .belief-Break {
-    font-size: 88%;
-    margin-top: 6%;
-}
+        font-size: 77%;
+        margin-top: 6%;
+    }
 
 .Intrique-solution {
      font-size: 80%;
@@ -595,19 +595,22 @@ footer{
 
 .belief-Break {
        font-size: 77%;
+       width: 85%;
+        margin: auto;
         margin-top: 6%;
     }
 
 .belief-shift {
-    font-size: 110%;
-width: 77%;
-    margin: 4% 11%;
-}
+        font-size: 95%;
+        width: 77%;
+        margin: 7% 11%;
+    }
 
 .belief-solution {
-    width: 83%;
-    margin: 0% 8%;
-}
+        width: 83%;
+        margin: 0% 8%;
+        font-size: 86%;
+    }
 
 .hidden-value {
     width: 90%;
