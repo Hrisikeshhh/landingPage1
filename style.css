@@ -106,7 +106,7 @@ header{
     height: 12%;
     background-color: #c4c2b6;
     cursor: pointer;
-  color: rgb(136, 127, 117);
+    color: rgb(113 60 1);
     border: transparent;
     margin: 2% 17%;
     background-image: url(imgs/button.png);
@@ -527,9 +527,9 @@ footer{
     }
 
     .call-Out-headline {
-    width: 40%;
-    font-size: 75%;
-   }
+        width: 100%;
+        font-size: 75%;
+    }
 
    .hero-promise {
     font-size: 80%;
