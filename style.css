@@ -1,4 +1,7 @@
-@import url('https//fonts.googleapis.com/css2?family=cause:Wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 
 *{
    margin: 0;
@@ -18,7 +21,7 @@ header{
     height: 10vh;
     width: 100%;
     color: rgb(237, 221, 203);
-    font-family: "cause", cursive;
+    font-family: "Ubuntu", sans-serif;
     display: flex;
     background-color:rgb(124 108 90);
     align-items: center;
@@ -78,19 +81,19 @@ header{
 }
 
 .COA{
-    font-family: "cause", cursive;
+    font-family: "Ubuntu", sans-serif;
     height: 13%;
     font-size: 208%;
 }
 
 .call-Out-headline{
    width: 40%;
-   font-family: "cause", cursive;
+   font-family: "Ubuntu", sans-serif;
    font-size: 102%;
 }
 
 .hero-promise{
-    font-family: "cause", cursive;
+    font-family: "Ubuntu", sans-serif;
     margin-top: 6%;
 }
 
@@ -145,7 +148,7 @@ header{
     text-align: center;
     margin-top: 10%;
     width: 75%;
-    font-family: "cause", cursive;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .Intrique-headline{
@@ -179,7 +182,7 @@ header{
     text-align: center;
     margin-top: 10%;
     width: 75%;
-    font-family: "cause", cursive;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .belief-headline{
@@ -259,7 +262,7 @@ header{
 }
 
 #hidden-valueH4{
-    font-family: "cause", cursive;
+    font-family: "Ubuntu", sans-serif;
     text-align: center;
     color: rgb(171 143 113);
     margin-top: 4%;
@@ -268,7 +271,7 @@ header{
 .insideValue{
     text-align: center;
     color: rgb(171 143 113);
-    font-family: "cause", cursive;
+    font-family: "Ubuntu", sans-serif;
     width: 90%;
     margin: auto;
 }
@@ -279,7 +282,7 @@ header{
 
 .Value-Stack{
     height: 44%;
-    font-family: "cause", cursive;
+    font-family: "Ubuntu", sans-serif;
     color: rgb(171 143 113);
     overflow-x: hidden;
 }
@@ -299,7 +302,7 @@ header{
     height: 150vh;
     width: 100%;
     background-color: #eae2d1;
-    font-family: "cause", cursive;
+   font-family: "Ubuntu", sans-serif;
     color: rgb(171 143 113);
     display: flow-root;
 }
@@ -351,7 +354,7 @@ header{
     margin-left: 13%;
     background-color: white;
     border-radius: 14px;
-    font-family: "cause", cursive;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .msg h1{
@@ -391,7 +394,7 @@ header{
     display:flex;
     gap:3rem;
     white-space: nowrap;
-    font-family: "cause",cursive;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .scroll-track span{
@@ -433,7 +436,7 @@ header{
     height: 100vh;
     width: 100%;
     background-color: #eae2d1;
-    font-family: "cause", cursive;
+   font-family: "Ubuntu", sans-serif;
     color: rgb(171 143 113);
     display: flow-root;
 }
@@ -470,7 +473,7 @@ footer{
     color: rgb(171 143 113);
     background-color: #eae2d1;
     font-size: 111%;
-    font-family: "cause", cursive;
+      font-family: "Ubuntu", sans-serif;
     height: 5vh;
     display: flex;
     align-items: center;
