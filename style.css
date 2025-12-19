@@ -714,6 +714,21 @@ width: 77%;
     margin-top: 28%;
 }
 
+.CTA-button {
+    padding: 2.8%;
+    border-radius: 11px;
+    font-size: 158%;
+    border: none;
+    margin: 9% 13%;
+    color: #eae2d1;
+    background-color: rgb(171 143 113);
+    cursor: pointer;
+}
+
+.CTA h3{
+    margin-top: 21%;
+}
+
 footer {
     font-size: 111%;
 }
