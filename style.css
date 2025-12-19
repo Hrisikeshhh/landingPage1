@@ -233,7 +233,7 @@ header{
 }
 
 .section4{
-    height: 100vh;
+    height: 125vh;
     width: 100%;
     background-color: #eae2d1;
     display: flow-root;
@@ -789,6 +789,30 @@ footer {
     font-size: 111%;
 }
 
+}
+
+@media (min-width:350px) and (max-width:390px)
+{
+    .section4 {
+        height: 300vh;
+        width: 100%;
+        background-color: #eae2d1;
+        display: flow-root;
+    }
+
+    .Value-Stack {
+        height: 30%;
+        font-family: "Ubuntu", sans-serif;
+        color: rgb(171 143 113);
+        overflow-x: hidden;
+    }
+
+        .section6 {
+        height: 300vh;
+        width: 100%;
+        background-color: #eae2d1;
+        display: flow-root;
+    }
 }
 
 @media (min-width:800px) and (max-width:1024px)
