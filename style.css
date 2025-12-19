@@ -295,6 +295,7 @@ header{
     margin: auto;
     width: 90%;
     height: 77%;
+     font-family: "Ubuntu", sans-serif;
     margin-top: 1%;
 }
 
@@ -583,7 +584,7 @@ footer{
    text-align: center;
   margin-top: 10%;
   width: 75%;
-   font-family: "cause", cursive;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .belief-Break {
@@ -623,7 +624,7 @@ width: 77%;
 
 .Value-Stack {
     height: 29%;
-    font-family: "cause", cursive;
+    font-family: "Ubuntu", sans-serif;
     color: rgb(171 143 113);
     overflow-x: hidden;
 }
