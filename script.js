@@ -87,6 +87,21 @@ tl.from(".items",{
   close.addEventListener('click',()=>{
     tl.reverse();
   })
+
+  let tl2 = gsap.timeline();
+  tl2.from('.bullet',{
+    x:20,
+    stagger:0.4,
+    opacity:0
+  })
+
+
+return ()=>{
+  tl2.kill();
+  tl.kill();
+}
+
+
 })
 
 
