@@ -132,6 +132,38 @@ header{
     background-size: cover;
 }
 
+.clientProjectsCounts {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eae2d1;
+}
+
+.innerCounts {
+    height: 85%;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #eae2d1;
+}
+
+.countBox {
+    color:rgb(171 143 113);;
+    width: 29%;
+    height: 89%;
+    display: flex;
+    font-size: 175%;
+    font-family:"Ubuntu", sans-serif ;
+    border: 1px solid rgb(171 143 113);;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 19px;
+    background-color: #eae2d1;
+}
+
 .section2{
     height: 100vh;
     width: 100%;
@@ -544,6 +576,27 @@ footer{
    .Hero-button:active {
     width: 50%;
     margin: 10% 17%;
+}
+
+.clientProjectsCounts {
+    height: 100vh;
+    display: flex;
+    background-color: #eae2d1;
+}
+
+.innerCounts {
+    height: 85%;
+    width: 88%;;
+    flex-direction: column;
+
+}
+
+.countBox {
+    width: 80%;
+    height: 25%;;
+    font-size: 175%;
+    flex-direction: column;
+
 }
 
 .section2 {
