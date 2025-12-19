@@ -527,6 +527,32 @@ footer{
 
 @media (max-width:800px)
 {
+     .portfolio-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #0073e6, #005bb5);
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  font-family: "Segoe UI", Arial, sans-serif;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+.portfolio-btn:hover {
+  background: linear-gradient(135deg, #005bb5, #004499);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.portfolio-btn:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
     #menu{
     display: inline-block;
     font-size: 231%;
