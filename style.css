@@ -646,17 +646,21 @@ width: 77%;
 
 
 .section5 {
-    height: 190vh;
+    height: 392vh;
     width: 100%;
 }
 
+.testimonialsHeadline {
+    text-align: center;
+    margin-top: 16%;
+}
 
 .testimonial-outerBox {
     margin-top: 3%;
     width: 90%;
     height: 68%;
-    grid-template-columns: repeat(2, 45%);
-    grid-auto-rows: 33%;
+   grid-template-columns: repeat(1, 80%);
+    grid-auto-rows: 17%;
     grid-gap: 15px;
 }
 
