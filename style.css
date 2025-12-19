@@ -700,7 +700,7 @@ width: 77%;
     margin-top: 5%;
     grid-template-columns: repeat(1, 90%);
     grid-auto-rows: 13%;
-    gap: 30px;
+    gap: 40px;
 }
 
 .CTA {
