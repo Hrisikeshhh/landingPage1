@@ -7,6 +7,15 @@
     box-sizing: border-box;
 }
 
+.logo {
+    background-image: url(logo/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 23%;
+    height: 70%;
+    border-radius: 12px;
+}
+
 body{
     height: 100vh;
 }
@@ -23,6 +32,7 @@ header{
 .leftNav{
     width: 35vw;
     display: flex;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }

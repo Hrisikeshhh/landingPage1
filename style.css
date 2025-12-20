@@ -9,6 +9,15 @@
    box-sizing: border-box;
 }
 
+.logo {
+    background-image: url(logo/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 23%;
+    height: 70%;
+    border-radius: 12px;
+}
+
 .overline{
     text-decoration: 3px solid rgb(15, 225, 29) line-through;
 }
@@ -30,6 +39,7 @@ header{
 .leftNav{
     width: 35vw;
     display: flex;
+    height: 100%;
     font-size: 111%;
     align-items: center;
     justify-content: center;
@@ -192,6 +202,9 @@ header{
 .belief-Break{
     font-size: 143%;
     margin-top: 6%;
+    width: 90%;
+    margin: 0% 5%;
+    margin-top: 6%;
 }
 
 .Intrique-solution{
@@ -222,6 +235,8 @@ header{
 }
 
 .belief-headline{
+    width: 90%;
+    margin: 0 5%;
     margin-top: 4%;
 }
 
