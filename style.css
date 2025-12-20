@@ -156,11 +156,11 @@ header{
     display: flex;
     font-size: 175%;
     font-family:"Ubuntu", sans-serif ;
-    border: 1px solid rgb(171 143 113);;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     border-radius: 19px;
+    box-shadow: 3px 15px 24px;
     background-color: #eae2d1;
 }
 
