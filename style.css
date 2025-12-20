@@ -842,9 +842,82 @@ footer {
 
 }
 
-@media() and ()
+@media(min-width:300px) and (max-width:325px)
 {
-    
+    .leftNav {
+    font-size: 80%;
+}
+
+.COA {
+        font-size: 97%;
+    }
+
+    .call-Out-headline {
+        font-size: 58%;
+    }
+
+        .hero-promise {
+        font-size: 69%;
+    }
+
+     .Hero-button {
+        width: 55%;
+        font-size: 72%;
+    }
+
+    .countBox {
+        font-size: 115%;
+    }
+
+    .Intrique-headline {
+        font-size: 51%;
+    }
+
+    .belief-Break {
+        font-size: 71%;
+    }
+
+   .Intrique-solution {
+        font-size: 73%;
+    }
+
+    .belief-headline {
+        font-size: 43%;
+    }
+
+    .belief-shift {
+        font-size: 76%;
+    }
+
+    .belief-solution {
+        font-size: 73%;
+    }
+
+    .valueDiv {
+    font-size: 76%;
+}
+
+  .Value-StackParas {
+        font-size: 66%;
+    }
+
+    .section5 {
+        font-size: 91%;
+    }
+
+        .section6 {
+        height: 373vh;
+    }
+
+    .CTA {
+        margin: auto;
+        font-size: 69%;
+        margin-top: 19%;
+    }
+
+    footer {
+        font-size: 88%;
+    }
 }
 
 @media (min-width:800px) and (max-width:1024px)
