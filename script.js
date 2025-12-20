@@ -1,28 +1,5 @@
 document.addEventListener('DOMContentLoaded',()=>{
-
-   //  redirectiong to chrome
-  function isInstagramBrowser() {
-    const ua = navigator.userAgent.toLowerCase();
-    return ua.includes("instagram");
-  }
-
-  function isChromeBrowser() {
-    const ua = navigator.userAgent.toLowerCase();
-    return ua.includes("chrome") && !ua.includes("instagram");
-  }
-
-  const link = document.getElementById("chrome-link");
-
-  if (isChromeBrowser()) {
-    // Hide if opened in Chrome
-    link.style.display = "none";
-  } else if (!isInstagramBrowser()) {
-    // Also hide if it's some other browser (Safari, Firefox, etc.)
-    link.style.display = "none";
-  }
-
-  // clickable things -->
-
+  
 let navBenefit = document.querySelector('#navBenefit');
 let navScrollPoint = document.querySelector('#section4');
 
