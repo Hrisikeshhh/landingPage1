@@ -31,7 +31,7 @@ CTAButton.addEventListener('click',()=>{
 
 let heroBtn = document.querySelector('.Hero-button');
 heroBtn.addEventListener('click',()=>{
-  window.location.href = 'contact.html';
+  window.location.href = 'https://www.instagram.com//ujjwal_yoga?igsh=bXo0OXFoNDkwbWhr';
 })
 
 // end -->
