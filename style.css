@@ -546,6 +546,10 @@ footer{
 
 @media (max-width:800px)
 {
+    .logo {
+    width: 64%;
+    height: 62%;
+}
      .portfolio-btn {
   display: inline-block;
   padding: 14px 28px;
