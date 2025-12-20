@@ -826,6 +826,11 @@ footer {
         display: flow-root;
     }
 
+    .Hero-button {
+        width: 78%;
+        margin: 10% 17%;
+    }
+
     .Value-Stack {
         height: 30%;
         font-family: "Ubuntu", sans-serif;
@@ -861,7 +866,7 @@ footer {
     }
 
      .Hero-button {
-        width: 55%;
+        width: 74%;
         font-size: 72%;
     }
 
