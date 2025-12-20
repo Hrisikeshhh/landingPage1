@@ -172,11 +172,13 @@ header{
 }
 
 .Intrique{
-    border: 1px solid;
     height: 65%;
+    box-shadow: 3px 15px 24px;
+    display: flow-root;
     margin: auto;
     color: rgb(171 143 113);
     border-radius: 16px;
+     box-shadow: 3px 15px 24px;
     text-align: center;
     margin-top: 10%;
     width: 75%;
@@ -206,8 +208,9 @@ header{
 }
 
 .beliefShifting{
-    border: 1px solid;
+    box-shadow: 3px 15px 24px;
     height: 65%;
+    display: flow-root;
     margin: auto;
     color: rgb(171 143 113);
     border-radius: 16px;
@@ -215,6 +218,7 @@ header{
     margin-top: 10%;
     width: 75%;
     font-family: "Ubuntu", sans-serif;
+    border: none;
 }
 
 .belief-headline{
@@ -661,7 +665,6 @@ footer{
  }
 
  .beliefShifting {
-     border: 1px solid;
     height: 89%;
     margin: auto;
     color: rgb(171 143 113);
