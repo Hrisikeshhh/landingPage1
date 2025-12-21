@@ -853,6 +853,16 @@ footer {
         margin: 10% 17%;
     }
 
+    .Hero-button:hover {
+        width: 78%;
+        margin: 10% 17%;
+    }
+
+    .Hero-button:active {
+        width: 78%;
+        margin: 10% 17%;
+    }
+
     .Value-Stack {
         height: 30%;
         font-family: "Ubuntu", sans-serif;
